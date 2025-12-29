@@ -38,7 +38,7 @@ const team: TeamMember[] = [
 ];
 
 export default function TeamSlider() {
-   const [currentSlide, setCurrentSlide] = useState(0);
+   const [, setCurrentSlide] = useState(0);
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
     loop: true,
     slideChanged(slider) {
