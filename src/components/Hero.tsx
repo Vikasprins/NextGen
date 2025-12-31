@@ -14,7 +14,7 @@ const Hero = () => {
           <h1 className="text-4xl md:text-5xl font-bold leading-tight">
             Next <span className="text-[#FF7300]">Gen <br /></span> Makes Easy <span className="text-[#FF7300]">Learning</span>
           </h1>
-          <p className="text-gray-400 mt-4 text-lg">
+          <p className="text-gray-600 mt-4 text-lg">
             Become a Certified Digital Marketing with PAP or Coding Expert with Practical, Agency-Based Training, Expert Faculty | Internship Opportunities
           </p>
           <div className="mt-6 space-x-4 ">

@@ -56,8 +56,7 @@ function Footer() {
         </div>
 
         <p className="mt-4 max-w-xs text-gray-500">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse non cupiditate quae nam
-          molestias.
+         {` Next Gen Business School – where innovation is tradition. We don’t just teach today’s business; we shape tomorrow’s strategies with a curriculum built on the latest digital trends.`}
         </p>
 
         <ul className="mt-8 flex gap-6">
@@ -162,7 +161,7 @@ function Footer() {
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <Link href="#" className="text-gray-700 transition hover:text-[#FF7300]"> About Us </Link>
+              <Link href="/about" className="text-gray-700 transition hover:text-[#FF7300]"> About Us </Link>
             </li>
 
             <li>
@@ -170,7 +169,7 @@ function Footer() {
             </li>
 
             <li>
-              <Link href="#" className="text-gray-700 transition hover:text-[#FF7300]">Popular Courses</Link>
+              <Link href="/courses" className="text-gray-700 transition hover:text-[#FF7300]">Popular Courses</Link>
             </li>
 
             <li>

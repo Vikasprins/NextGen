@@ -21,9 +21,9 @@ const Navbar = () => {
         <nav className="hidden md:flex space-x-6 items-center">
           <Link href="/" className="text-gray-700 hover:text-orange-500">Home</Link>
           <Link href="/about" className="text-gray-700 hover:text-orange-500">About Us</Link>
-          <Link href="/services" className="text-gray-700 hover:text-orange-500">Services</Link>
+          <Link href="/" className="text-gray-700 hover:text-orange-500">Services</Link>
           <Link href="/courses" className="text-gray-700 hover:text-orange-500">Courses</Link>
-          <Link href="/contact" className="text-gray-700 hover:text-orange-500">Contact</Link>
+          <Link href="/" className="text-gray-700 hover:text-orange-500">Contact</Link>
           <button
           onClick={() => setOpen(true)} 
           className="bg-[#FF7300] hover:bg-orange-600 text-white px-4 py-2 rounded-md cursor-pointer">
@@ -43,11 +43,11 @@ const Navbar = () => {
       {/* Mobile Nav */}
       {menuOpen && (
         <div className="md:hidden flex flex-col items-start px-4 mt-2 space-y-4">
-          <Link href="#" className="text-gray-700 hover:text-orange-500">Home</Link>
-          <Link href="#" className="text-gray-700 hover:text-orange-500">About Us</Link>
-          <Link href="#" className="text-gray-700 hover:text-orange-500">Services</Link>
-          <Link href="#" className="text-gray-700 hover:text-orange-500">Courses</Link>
-          <Link href="#" className="text-gray-700 hover:text-orange-500">Contact</Link>
+          <Link href="/" className="text-gray-700 hover:text-orange-500">Home</Link>
+          <Link href="/about" className="text-gray-700 hover:text-orange-500">About Us</Link>
+          <Link href="/" className="text-gray-700 hover:text-orange-500">Services</Link>
+          <Link href="/courses" className="text-gray-700 hover:text-orange-500">Courses</Link>
+          <Link href="/" className="text-gray-700 hover:text-orange-500">Contact</Link>
           <button
           onClick={() => setOpen(true)} 
           className="bg-[#FF7300] hover:bg-orange-600 text-white px-4 py-2 rounded-md w-full text-left cursor-pointer">

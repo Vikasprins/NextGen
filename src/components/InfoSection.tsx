@@ -30,14 +30,16 @@ const InfoSection = () => {
         <div className="relative w-full overflow-hidden">
           <div className="flex gap-16 animate-slide">
             <img src="/nga_logo.png" alt="logo" className="h-20 w-auto" />
-            <img src="/nga_logo.png" alt="logo" className="h-20 w-auto" />
-            <img src="/nga_logo.png" alt="logo" className="h-20 w-auto" />
-            <img src="/nga_logo.png" alt="logo" className="h-20 w-auto" />
+            <img src="/partner/nextgen.jpeg" alt="logo" className="h-20 w-auto" />
+            <img src="/partner/jsl.jpeg" alt="logo" className="h-20 w-auto" />
+            <img src="/partner/om.jpeg" alt="logo" className="h-20 w-auto" />
+            <img src="/partner/amozen.jpeg" alt="logo" className="h-20 w-auto" />
             {/* Duplicate for seamless loop */}
             <img src="/nga_logo.png" alt="logo" className="h-20 w-auto" />
-            <img src="/nga_logo.png" alt="logo" className="h-20 w-auto" />
-            <img src="/nga_logo.png" alt="logo" className="h-20 w-auto" />
-            <img src="/nga_logo.png" alt="logo" className="h-20 w-auto" />
+            <img src="/partner/nextgen.jpeg" alt="logo" className="h-20 w-auto" />
+            <img src="/partner/jsl.jpeg" alt="logo" className="h-20 w-auto" />
+            <img src="/partner/om.jpeg" alt="logo" className="h-20 w-auto" />
+            <img src="/partner/amozen.jpeg" alt="logo" className="h-20 w-auto" />
           </div>
         </div>
       </div>
