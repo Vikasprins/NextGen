@@ -87,7 +87,7 @@ const AboutSection = () => {
         {/* Image Section */}
         <div className="relative w-full md:w-[50%] h-[300px] md:h-auto flex-shrink-0">
           <Image
-            src="/aboutus.jpg"
+            src="/about_us.png"
             alt="About NGA"
             fill
             className="object-cover rounded-t-lg md:rounded-t-none md:rounded-l-lg"
